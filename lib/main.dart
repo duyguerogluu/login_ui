@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:login_ui/login_screen.dart';
+import 'package:login_ui/login_four.dart';
+import 'package:login_ui/login_one.dart';
+import 'package:login_ui/login_three.dart';
 import 'package:login_ui/login_two.dart';
 
 void main() {
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
-      home: const LoginTwo(),
+      home: const LoginFour(),
     );
   }
 }

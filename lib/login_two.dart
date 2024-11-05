@@ -63,9 +63,7 @@ class LoginTwo extends StatelessWidget {
                       ),
                       const SizedBox(height: 20),
                       ElevatedButton(
-                        onPressed: () {
-                          // Giriş yapma işlemi
-                        },
+                        onPressed: () {},
                         child: Text('Login'),
                         style: ElevatedButton.styleFrom(
                           padding: const EdgeInsets.symmetric(
@@ -79,6 +77,10 @@ class LoginTwo extends StatelessWidget {
                       TextButton(
                         onPressed: () {},
                         child: const Text('Forgot Password?'),
+                      ),
+                      TextButton(
+                        onPressed: () {},
+                        child: const Text("Don't you have a account? Sign In"),
                       ),
                     ],
                   ),
