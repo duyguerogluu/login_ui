@@ -20,7 +20,8 @@ class _LoginOneState extends State<LoginOne> {
                 width: MediaQuery.of(context).size.width,
                 decoration: const BoxDecoration(
                     image: DecorationImage(
-                        image: NetworkImage("https://i.imgur.com/XNx0mye.gif"),
+                        image: NetworkImage(
+                            "https://cdn.dribbble.com/userupload/4247586/file/original-e11224e9768ebf3b2be7dba697ca2144.gif"),
                         fit: BoxFit.cover)),
                 padding: const EdgeInsets.all(10),
                 child: Column(
@@ -38,7 +39,7 @@ class _LoginOneState extends State<LoginOne> {
                       padding: const EdgeInsets.symmetric(
                           horizontal: 20, vertical: 20),
                       decoration: const BoxDecoration(
-                        color: Color.fromRGBO(255, 255, 255, 0.10),
+                        color: Color.fromRGBO(195, 57, 30, 0.552),
                         borderRadius:
                             BorderRadius.only(topRight: Radius.circular(30)),
                       ),
@@ -65,7 +66,7 @@ class _LoginOneState extends State<LoginOne> {
                     ),
                     Container(
                       decoration: const BoxDecoration(
-                        color: Color.fromRGBO(255, 255, 255, 0.10),
+                        color: Color.fromRGBO(209, 72, 22, 0.708),
                         borderRadius: BorderRadius.only(
                           bottomLeft: Radius.circular(30),
                           bottomRight: Radius.circular(30),
@@ -93,7 +94,7 @@ class _LoginOneState extends State<LoginOne> {
                               const EdgeInsets.symmetric(
                                   horizontal: 18, vertical: 12)),
                           backgroundColor: WidgetStateProperty.all(
-                            const Color.fromRGBO(255, 255, 255, 0.30),
+                            const Color.fromARGB(216, 224, 118, 32),
                           ),
                         ),
                         child: const Text(
