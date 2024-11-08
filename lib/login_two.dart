@@ -64,7 +64,7 @@ class LoginTwo extends StatelessWidget {
                       const SizedBox(height: 20),
                       ElevatedButton(
                         onPressed: () {},
-                        child: Text('Login'),
+                        
                         style: ElevatedButton.styleFrom(
                           padding: const EdgeInsets.symmetric(
                               horizontal: 40, vertical: 15),
@@ -72,6 +72,7 @@ class LoginTwo extends StatelessWidget {
                             borderRadius: BorderRadius.circular(10),
                           ),
                         ),
+                        child:const Text('Login'),
                       ),
                       const SizedBox(height: 10),
                       TextButton(
